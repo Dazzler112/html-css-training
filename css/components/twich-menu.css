@@ -1,0 +1,81 @@
+.twich-menu-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.1);
+}
+.twich-menu__column {
+    width: 33%;
+    display: flex;
+    align-items: center;
+}
+.twich-menu__column:first-child > i,
+.twich-menu__column:first-child span,
+.twich-menu__column:first-child img{
+    margin-right: 40px;
+}
+.twich-menu__column:first-child span {
+    font-weight: 600;
+}
+.twich-menu__column:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+.twich-menu__column input {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 1px;
+    background-color: rgba(0,0,0,0.1);
+    border: none;
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.twich-menu__column button {
+    width: 35.5px;
+    height: 35.5px;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: rgba(0,0,0,0.05);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+.twich-menu__column button:focus,
+.twich-menu__column button:active {
+    outline: none;
+}
+.twich-menu__column:last-child {
+    justify-content: flex-end;
+    position: relative;
+}
+.twich-menu__column:last-child img,
+.twich-menu__column:last-child >i {
+    margin: 0px 20px;
+}
+.twich-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.sub-dot {
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    border-radius: 25px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -4px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.twich-menu__column .fa-crown {
+    margin-right: 15px;
+}
