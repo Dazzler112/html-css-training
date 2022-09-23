@@ -3,6 +3,7 @@
     width: 20%;
     background-color: #efeff1;
     padding: 0px 10px;
+    height: 110vh;
 }
 .recommend-channel {
     display: flex;

@@ -15,9 +15,13 @@
     border-radius: 50%;
     margin-right: 8px;
 }
+.follw-avatar__off {
+    filter: grayscale(100%);
+}
 .follow-components {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 13px;
 }
 .follow-components__column {
     display: flex;
@@ -34,6 +38,13 @@
 }
 .follow-components__column--sub {
     align-items: stretch;
+}
+.follow-components__column--off-sub {
+    display: flex;
+    align-items: center;
+}
+.follow-components__column--off-sub span{
+    font-size: 15px;
 }
 .follow-viewer {
     margin-left: 5px;
