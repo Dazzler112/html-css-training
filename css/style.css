@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;600&family=Open+Sans:wght@400;500&display=swap');
 @import "reset.css";
+@import "variable.css";
 
 /*components*/
 @import "components/twich-menu.css";
+@import "components/recommend-channel.css";
+@import "components/follw-cheenl.css";
+@import "components/badge.css";
 /*screen*/
+@import "screen/main-screen.css";
 
 body{
     font-family: 'Open Sans', sans-serif;

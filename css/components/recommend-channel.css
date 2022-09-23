@@ -1,0 +1,17 @@
+.left-side-bar {
+    margin-right: auto;
+    width: 20%;
+    background-color: #efeff1;
+    padding: 0px 10px;
+}
+.recommend-channel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.recommend-title {
+    font-size: 19px;
+}

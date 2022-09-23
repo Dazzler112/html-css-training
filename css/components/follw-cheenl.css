@@ -1,0 +1,41 @@
+.follow-channel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.follw-title {
+    font-size: 14px;
+}
+.follow-avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.follow-components {
+    display: flex;
+    justify-content: space-between;
+}
+.follow-components__column {
+    display: flex;
+    align-items: center;
+}
+.follow-components__title {
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+.follow-components__subtitle {
+    font-size: 14px;
+    opacity: 0.6;
+}
+.follow-components__column--sub {
+    align-items: stretch;
+}
+.follow-viewer {
+    margin-left: 5px;
+    font-size: 15px;
+}

@@ -2,7 +2,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    border-bottom: 0.5px solid rgba(0,0,0,0.05);
+    padding:0px var(--horizontal-space);
 }
 .twich-menu__column {
     width: 33%;
@@ -55,7 +57,7 @@
 }
 .twich-menu__column:last-child img,
 .twich-menu__column:last-child >i {
-    margin: 0px 20px;
+    margin-left: 40px;
 }
 .twich-avatar {
     width: 30px;
@@ -77,5 +79,5 @@
     font-weight: 500;
 }
 .twich-menu__column .fa-crown {
-    margin-right: 15px;
+    margin-right: 5px;
 }
