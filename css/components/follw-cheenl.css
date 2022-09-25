@@ -41,12 +41,22 @@
 }
 .follow-components__column--off-sub {
     display: flex;
-    align-items: center;
+    align-items: stretch;
 }
-.follow-components__column--off-sub span{
+.follow-components__column--off-sub span,
+.follow-components__column--off-non span{
     font-size: 15px;
 }
 .follow-viewer {
     margin-left: 5px;
     font-size: 15px;
+}
+.follow__more {
+    display: flex;
+    justify-content: space-between;
+}
+.follow__more a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #814cd0;
 }

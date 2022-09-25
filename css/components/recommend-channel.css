@@ -1,6 +1,6 @@
 .left-side-bar {
     margin-right: auto;
-    width: 20%;
+    width: 16%;
     background-color: #efeff1;
     padding: 0px 10px;
     height: 110vh;
@@ -15,4 +15,9 @@
 }
 .recommend-title {
     font-size: 19px;
+}
+.recommned-channels {
+    margin: 20px 0px;
+    font-size: 15px;
+    font-weight: 600;
 }
