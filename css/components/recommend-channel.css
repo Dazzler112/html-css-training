@@ -1,9 +1,11 @@
 .left-side-bar {
+    display: inline-block;
     margin-right: auto;
     width: 16%;
     background-color: #efeff1;
     padding: 0px 10px;
     height: 110vh;
+    margin-right: 0px;
 }
 .recommend-channel {
     display: flex;

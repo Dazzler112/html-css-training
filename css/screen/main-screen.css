@@ -1,0 +1,10 @@
+.main-display {
+    display: inline-block ;
+    width: 68%;
+    margin: 0px;
+    padding: 0px;
+}
+.main-photo {
+    width: 1000px;
+    height: 800px;
+}

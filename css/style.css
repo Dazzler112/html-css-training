@@ -5,8 +5,9 @@
 /*components*/
 @import "components/twich-menu.css";
 @import "components/recommend-channel.css";
-@import "components/follw-cheenl.css";
+@import "components/follw-channel.css";
 @import "components/badge.css";
+@import "components/online-chatting.css";
 /*screen*/
 @import "screen/main-screen.css";
 
