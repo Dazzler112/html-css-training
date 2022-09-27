@@ -1,5 +1,4 @@
-.left-side-bar {
-    display: inline-block;
+.main-screen .left-side-bar {
     margin-right: auto;
     width: 16%;
     background-color: #efeff1;
@@ -9,7 +8,6 @@
 }
 .recommend-channel {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding-top: 20px;
     font-weight: 600;
