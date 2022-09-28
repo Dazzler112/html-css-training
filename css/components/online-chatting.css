@@ -1,7 +1,9 @@
 .right-side-bar {
-    width: 19%;
+    width: 30%;
     margin-left: auto;
     height: 110vh;
+    margin: 0px;
+    background-color: white;
 }
 .online-chatting {
     border-bottom: 1px solid rgba(0,0,0,0.2);
