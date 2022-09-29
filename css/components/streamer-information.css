@@ -1,0 +1,71 @@
+.streamer-information {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 40px;
+    padding: 30px 30px;
+    border: 1px solid;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    border-radius: 7px;
+}
+.streamer-informations {
+    margin: 10px 0px;
+    padding: 5px 30px;
+}
+.streamer-information-a {
+    display: flex;
+}
+.streamer-information-b {
+    display: flex;
+    align-items: center;
+}
+
+.streamer-informations {
+    display: flex;
+    justify-content: space-between;
+}
+.streamer-information__name {
+    font-size: 25px;
+    font-weight: 600;
+    margin-right: 7px;
+}
+.streamer-information-b .fa-check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 39%;
+    font-size: 5px;
+    background-color: #814cd0;
+    color: white;
+}
+.streamer-information__follower {
+    font-weight: 600;
+    margin-right: 5px;
+}
+.div-dot {
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background-color: #3e3485;
+    margin: 0px 5px;
+}
+.streamer-information__team {
+    font-weight: 600;
+    color:#3e3485;
+}
+.streamer-information__text {
+    font-size: 15px;
+    font-weight: 400;
+}
+.streamer-information-bc {
+    opacity: 0.8;
+}
+.streamer-information-bc i {
+    margin-right: 10px;
+}
+.streamer-information-bc a:active,
+.streamer-information-bc a:focus {
+    outline: none;
+}
