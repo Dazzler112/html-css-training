@@ -19,6 +19,7 @@
 .main-photo {
     width: 1230px;
     height: 700px;
+    object-fit: cover;
 }
 .details-more {
     list-style: none;

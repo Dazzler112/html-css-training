@@ -1,0 +1,8 @@
+img 마진 공백 없에는법 (margin top,bottom 0해도 안될경우)
+일단 속성 블록으로 바꿈
+img {
+    display: block;
+}
+후
+<img src="./html.jpeg" alt="HTML image" style="vertical-align: top;">
+**<img src="./html.jpeg" alt="HTML image" style="vertical-align: bottom;">**
