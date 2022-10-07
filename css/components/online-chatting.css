@@ -14,3 +14,62 @@
     margin: 10px;
     padding: 10px;
 }
+.online-welcome {
+    padding: 10px 22px;
+}
+.welcome-text {
+    color: rgba(0,0,0,0.7);
+    font-size: 14px;
+    font-weight: 500;
+}
+.welcome-user {
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}
+.welcome-user img {
+    margin-right: 5px;
+}
+.welcome-user__id {
+    font-size: 14px;
+    font-weight: 550;
+}
+.wlcome-user__name {
+    color: #4f53ff;
+}
+.wlcome-user__name-en {
+    color: #bebeff;
+}
+.welcome-user__text {
+    font-weight: 500;
+}
+.online-message {
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    margin: 10px 15px;
+}
+.online-messages {
+    position: relative;
+}
+.online-message input {
+    width:100%;
+    padding: 14px 42px;
+    background-color: rgba(0,0,0,0.1);
+    border: none;
+    border-radius: 5px;
+}
+.online-message__imoticon{
+    position: absolute;
+    top: 12px;
+    right: -78px;
+}
+.online-message__imoticon i{
+    font-size: 17px;
+}
+.online-message__imoticon button {
+    border: none;
+    background-color: rgba(0,0,0,0);
+    border-radius: 50%;
+    cursor: pointer;
+}
