@@ -29,6 +29,8 @@
 }
 .welcome-user img {
     margin-right: 5px;
+    width: 22px;
+    height: 22px;
 }
 .welcome-user__id {
     font-size: 14px;
@@ -52,7 +54,7 @@
 .online-messages {
     position: relative;
 }
-.online-message input {
+.online-messages input {
     width:100%;
     padding: 14px 42px;
     background-color: rgba(0,0,0,0.1);
@@ -72,4 +74,39 @@
     background-color: rgba(0,0,0,0);
     border-radius: 50%;
     cursor: pointer;
+}
+.chatting-point-option {
+    width: 132%;
+    margin: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.chatting-column:first-child i {
+    opacity: 0.7;
+    color: aquamarine;
+    margin-right: 5px;
+}
+.chatting-point__point {
+    font-size: 14px;
+    opacity: 0.7;
+}
+.chatting-column-a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.chatting-column-a i {
+    margin-right: 10px;
+}
+.chatting-option__chat {
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 13px;
+    background-color:#814cd0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
