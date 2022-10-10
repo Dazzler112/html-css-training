@@ -1,0 +1,22 @@
+hover는 마우스올려놓을시 실행됨
+예제) .follow-components:hover {
+    background-color:rgba(0,0,0,0.03);
+}
+               ㅣ
+                V
+.follow-components {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 13px;
+    transition: background-color 0.1s ease-in-out;
+}
+
+반대로 focus는 마우스 클릭시 
+.twich-menu__column input:focus {
+    background-color: #ffffff;
+}
+             ㅣ
+             V
+.twich-menu__column input {
+    transition: background-color 0.1s ease-in;
+}
