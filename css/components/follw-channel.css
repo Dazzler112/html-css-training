@@ -28,6 +28,10 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 13px;
+    transition: background-color 0.1s ease-in-out;
+}
+.follow-components:hover {
+    background-color:rgba(0,0,0,0.03);
 }
 .follow-components__column {
     display: flex;
