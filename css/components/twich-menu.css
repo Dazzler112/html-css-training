@@ -85,3 +85,14 @@
 .twich-menu__column .fa-crown {
     margin-right: 5px;
 }
+.more-view {
+    list-style: none;
+}
+.more-ellipsis-column > span{
+    display: block;
+    font-size: 14px;
+}
+.more-ellipsis-columns {
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin: 10px 0px;
+}
