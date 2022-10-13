@@ -13,7 +13,7 @@
 }
 .stremer_view {
     position: absolute;
-    top: -736.5px;
+    top: -731.5px;
     right: 0px;
 }
 .main-photo {
@@ -47,6 +47,13 @@
     top: 65px;
     right: 16px;
 }
+.streamer-info__column img {
+    transition: border 0.3s ease-in;
+    cursor: pointer;
+}
+.streamer-info__column img:hover{
+    border:5px solid #814cd0;
+}
 .streamer-info__onair {
     display: flex;
     justify-content: center;
@@ -59,18 +66,21 @@
     color: white;
     border-radius: 8px;
 }
+.streamer-info__info {
+    align-items: center;
+}
 .streamer-info__text {
     display: flex;
 }
 .streamer-info__texts {
     display: flex;
     align-items: center;
+    margin-bottom: 8px;
 }
 .streamer-info__name  {
     font-weight: 600;
     font-size: 20px;
     margin-right: 8px;
-    margin-bottom: 7px;
 }
 .streamer-info__texts .fa-check {
     display: flex;
@@ -84,7 +94,6 @@
     color: white;
 }
 .streamer-info__title {
-    margin-bottom: 9px;
     font-weight: 550;
 }
 .streamer-info__subtitle  {
@@ -162,6 +171,15 @@
 .streamer__stream-time {
     margin-right: 17px;
     font-size: 16px;
+}
+.screen-option {
+    list-style:none; 
+    cursor: pointer;
+}
+.option-112 {
+    opacity: 0.8;
+    font-size: 13px;
+    cursor: pointer
 }
 .streamer-info__texts-b .fa-upload {
     font-size: 17px;
