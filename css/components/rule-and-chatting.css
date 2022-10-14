@@ -13,6 +13,9 @@
     list-style:decimal;
     margin-left: 17px;
 }
+.chatting-rules li {
+    margin: 4px 0px;
+}
 .streaming-rules__chatting-title {
     margin-bottom: 12px;
     font-size: 26px;
@@ -24,4 +27,5 @@
 }
 .streaming-month_program-subscribe span{
     display: block;
+    margin-top: 10px;
 }

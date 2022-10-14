@@ -9,11 +9,11 @@
 .main-display {
     position: relative;
     width: 100%;
-    margin-top: 540px;
+    margin-top: 570px;
 }
 .stremer_view {
     position: absolute;
-    top: -731.5px;
+    top: -721.5px;
     right: 0px;
 }
 .main-photo {
@@ -188,3 +188,15 @@
 .streamer-info__texts-b .fa-ellipsis-v {
     font-size: 17px;
 }
+.streamer-info__texts-a .fa-heart:hover {
+    background-color: #ff5757;
+}
+.streamer-info__texts-a .fa-heart {
+    transition: background-color 0.2s ease-in;
+    cursor: pointer;
+}
+.streamer-info__texts-a .fa-bell,
+.streamer-event{
+    cursor: pointer;
+}
+

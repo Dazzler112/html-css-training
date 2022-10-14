@@ -23,6 +23,16 @@
     display: flex;
     justify-content: center;
 }
+.twich-menu__column-left img:hover{
+    transform: scale3d(1.2,1.3,1);
+}
+
+.twich-menu__following {
+    cursor: pointer;
+}
+.twich-menu__search {
+    cursor: pointer;
+}
 .twich-menu__column input:focus {
     background-color: #ffffff;
 }
@@ -87,6 +97,7 @@
 }
 .more-view {
     list-style: none;
+    cursor: pointer;
 }
 .more-ellipsis-column > span{
     display: block;
@@ -95,4 +106,7 @@
 .more-ellipsis-columns {
     border-bottom: 1px solid rgba(0,0,0,0.2);
     margin: 10px 0px;
+}
+.twich-menu__column-right i{
+    cursor: pointer;
 }
