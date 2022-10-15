@@ -199,4 +199,13 @@
 .streamer-event{
     cursor: pointer;
 }
-
+.nagis-youtube {
+    margin-right: 10px;
+}
+.streamer-information-a .fa-location-arrow {
+    color: #ffffff;
+    transition: color 0.1s ease-in;
+}
+.streamer-information-a:hover .fa-location-arrow {
+    color: #53535f;
+}
