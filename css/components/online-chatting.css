@@ -110,3 +110,20 @@
     align-items: center;
     justify-content: center;
 }
+.chatting-column .fa-money-bill-wave {
+    will-change: transform;
+    animation: moneyWave 1s linear infinite;
+}
+@keyframes moneyWave{
+    0%{
+         color:black;
+        transform:none;
+    }
+    50%{
+        color: aquamarine;
+        transform:scale(1.2);
+    }
+    100%{
+        color:#f60429;
+        transform:none;}
+}
