@@ -6,6 +6,19 @@
     height: 200vh;
     margin-right: 0px;
 }
+.left-side-bar {
+    animation: feidins 0.3s linear;
+}
+@keyframes feidins {
+    from{
+        opacity: 0;
+        transform:translateY(-5px);
+        }
+    to{
+        opacity: 1;
+        transform: none;
+    }
+}
 .recommend-channel {
     display: flex;
     justify-content: space-between;
@@ -13,6 +26,9 @@
     padding-top: 20px;
     font-weight: 600;
     font-size: 18px;
+}
+.recommend-channel .fa-arrow-left {
+    cursor: pointer;
 }
 .recommend-title {
     font-size: 19px;

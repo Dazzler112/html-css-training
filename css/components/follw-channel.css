@@ -2,10 +2,19 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 0px;
+    margin: 10px 0px;
+    padding: 10px 0px;
     font-weight: 600;
     font-size: 18px;
+    cursor: pointer;
 }
+.follow-channel {
+    transition: background-color 0.1s ease-in;
+}
+.follow-channel:hover {
+    background-color: rgba(0,0,0,0.05);
+}
+
 .follw-title {
     font-size: 14px;
 }
