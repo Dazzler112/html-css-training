@@ -1,0 +1,39 @@
+.twichmain-display {
+    width: 83%;
+}
+.twich-recomend-mainchannel {
+    display: flex;
+    align-items: center;
+    margin: 30px 0px;
+}
+.twich-recomend-mainchannel .fa-chevron-left {
+    padding: 0px 60px;
+    margin-right: 20px;
+}
+.twich-recomend-mainchannel .fa-chevron-right {
+    padding: 0px 60px;
+    margin-left: 20px;
+}
+.fa-chevron-right {
+    position: absolute;
+    right: 10px;
+}
+.twich-recomend-mainchannel__column {
+    position: relative;
+}
+.twich-recomend-mainchannel__column1 {
+    z-index: 1;
+    right: -30px;
+}
+.twich-recomend-mainchannel__column2 {
+    right: 140px;
+    z-index: 2;
+}
+.twich-recomend-mainchannel__column3 {
+    right: 300px;
+    z-index: 1;
+}
+.main-photos {
+    width: 400px;
+    height: 250px;
+}

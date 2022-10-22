@@ -1,6 +1,5 @@
 .main-screen {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     width: 100%;
     background-color: #f7f7f8;
@@ -9,11 +8,11 @@
 .main-display {
     position: relative;
     width: 100%;
-    margin-top: 570px;
+    margin-top: 740px;
 }
 .stremer_view {
     position: absolute;
-    top: -721.5px;
+    top: -741px;
     right: 0px;
 }
 .main-photo {

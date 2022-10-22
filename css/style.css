@@ -12,6 +12,7 @@
 @import "components/rule-and-chatting.css";
 /*screen*/
 @import "screen/main-screen.css";
+@import "screen/twichmain-display.css";
 
 body{
     font-family: 'Open Sans', sans-serif;
