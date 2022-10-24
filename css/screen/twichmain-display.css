@@ -1,10 +1,11 @@
 .twichmain-display {
-    width: 83%;
+    width: 85%;
 }
 .twich-recomend-mainchannel {
     display: flex;
     align-items: center;
     margin: 30px 0px;
+    margin-bottom: 50px;
 }
 .twich-recomend-mainchannel .fa-chevron-left {
     padding: 0px 60px;
@@ -36,4 +37,75 @@
 .main-photos {
     width: 400px;
     height: 250px;
+}
+.like-it__channel {
+    padding: 0px 7px;
+}
+.like-it__channel__columns {
+    display: flex;
+}
+.like-it__channel__column {
+    width: 317px;
+    height: 180px;
+    margin: 0px 3px;
+}
+.like-it__channels {
+    display: flex;
+    justify-content: space-between;
+}
+.like-it__channel__title {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+.like-it__channel__streamer {
+    display: flex;
+    align-items: start;
+    margin-top: 5px;
+}
+.like-it__channel__streamer-i{
+    margin-right: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.like-it__channel__streamer-info span{
+    display: block;
+}
+.like-it__channel__avatar {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.like-it__channe__text-title{
+    font-weight: 550;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.like-it__channe__text-titles {
+    font-size: 14px;
+}
+.like-it__channel-font {
+    font-size: 13px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-bottom: 6px;
+}
+.like-it__channel-fonts {
+    font-size: 13px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-bottom: 7px;
+}
+.like-it__channel-language {
+    padding: 3px 3px;
+    width: 50px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid rgba(0,0,0,0.05);
+    background-color: rgba(0,0,0,0.05);
+    border: none;
+    font-size: 13px;
+    cursor: pointer;
 }
