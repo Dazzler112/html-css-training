@@ -46,6 +46,18 @@
     height: 180px;
     margin: 0px 3px 110px 3px;
 }
+.like-it__channel__column-a {
+    width: 188px;
+    height: 250px;
+    margin: 0px 6px 110px 6px;
+    
+}
+.like-category {
+    padding: 0px 18px;
+}
+.like-categorys {
+    border-bottom: 1px solid rgba(0,0,0,0.08); 
+}
 .like-it__channels {
     display: flex;
     justify-content: space-between;
@@ -54,6 +66,7 @@
     font-weight: 600;
     font-size: 18px;
     margin-bottom: 12px;
+    margin-right: 5px;
 }
 .like-it__channel__streamer {
     display: flex;
@@ -107,6 +120,10 @@
     cursor: pointer;
     font-weight: 550;
     color:rgba(0,0,0,0.7);
+    transition: background-color ease-in;
+}
+.like-it__channel-language:hover {
+    background-color: rgba(0,0,0,0.1);
 }
 .recommend-chevron {
     padding: 13px;
@@ -139,4 +156,86 @@
 }
 .like-it__channel__mores .fa-chevron-down {
     margin: 0px 10px;
+}
+.like-it__channel__category {
+    display: flex ;
+}
+.like-it__channel__categorys {
+    color: #9d16c5;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: text-decoration ease-in;
+}
+.like-it__channel__categorys:hover {
+    text-decoration: underline;
+}
+.like-it__channel-like {
+    padding: 3px 3px;
+    width: 70px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid rgba(0,0,0,0.05);
+    background-color: rgba(0,0,0,0.05);
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 550;
+    color:rgba(0,0,0,0.7);
+    transition: background-color ease-in;
+}
+.like-it__channel-like:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+.like-it__channel-like-a {
+    padding: 3px 3px;
+    width: 80px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid rgba(0,0,0,0.05);
+    background-color: rgba(0,0,0,0.05);
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 550;
+    color:rgba(0,0,0,0.7);
+    transition: background-color ease-in;
+    margin-right: 5px;
+}
+.like-it__channel-like-a:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+.like-it__channel-like-like {
+    display: flex;
+}
+.like-it__channel-like-b {
+    padding: 3px 3px;
+    width: 50px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid rgba(0,0,0,0.05);
+    background-color: rgba(0,0,0,0.05);
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 550;
+    color:rgba(0,0,0,0.7);
+    transition: background-color ease-in;
+    margin-right: 5px ;
+}
+.like-it__channel-like-c {
+    width: 60px;
+}
+.like-it__channel-like-b:hover {
+    background-color: rgba(0,0,0,0.1);
 }
