@@ -19,6 +19,9 @@
 .twich-recomend-mainchannel__column {
     position: relative;
 }
+.twich-recomend-mainchannel__column img {
+    cursor: pointer;
+}
 .twich-recomend-mainchannel__column1 {
     z-index: 1;
     right: -80px;
@@ -51,6 +54,9 @@
     height: 250px;
     margin: 0px 6px 110px 6px;
     
+}
+.like-it__channel__column img {
+    cursor: pointer;
 }
 .like-category {
     padding: 0px 18px;
@@ -176,6 +182,17 @@
     color: #9d16c5;
     margin: 0px 25px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    transition:color background-color ease-in ;
+}
+.like-it__channel__mores:hover {
+    background-color: rgba(0,0,0,0.2);
+    color: rgba(0,0,0,0.8);
 }
 .like-it__channel__mores .fa-chevron-down {
     margin: 0px 10px;
