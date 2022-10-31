@@ -1,0 +1,19 @@
+.folloing-channel {
+    margin: 20px 20px;
+}
+.folloing-channel-folloing {
+    font-size: 50px;
+    font-weight: 600;
+    margin: 10px 10px 30px 10px;
+}
+.folloing-channel__category-select {
+    margin: 0px 10px 0px 5px;
+    font-size: 18px;
+    font-weight: 550;
+    cursor: pointer;
+    transition: border-bottom color ease-in;
+}
+.folloing-channel__category-select:hover {
+    color: #9d16c5;
+    border-bottom: 2px solid #9d16c5;
+}

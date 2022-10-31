@@ -41,6 +41,14 @@
 .like-it__channel {
     padding: 0px 7px;
 }
+.like-it__channel-live {
+    padding: 0px 15px;
+    
+}
+.like-it__channel-lives {
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+    margin-bottom: 30px;
+}
 .like-it__channel__columns {
     display: flex;
 }

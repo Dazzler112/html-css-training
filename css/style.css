@@ -13,6 +13,7 @@
 /*screen*/
 @import "screen/main-screen.css";
 @import "screen/twichmain-display.css";
+@import "screen/following.css";
 
 body{
     font-family: 'Open Sans', sans-serif;
