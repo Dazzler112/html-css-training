@@ -17,3 +17,9 @@
     color: #9d16c5;
     border-bottom: 2px solid #9d16c5;
 }
+.folloing-recommended-channel {
+    display: flex;
+}
+.folloing-recommended-channel h6 {
+    margin-right: 5px;
+}
