@@ -299,11 +299,3 @@
 .what-likes img:hover {
     filter: contrast(200%);
 }
-.next-info {
-    padding: 0px 20px;
-}
-.next-info__title {
-    font-weight: 600;
-    font-size: 20px;
-    margin: 0px 10px;
-}
